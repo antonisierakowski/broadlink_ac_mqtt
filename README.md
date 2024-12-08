@@ -39,14 +39,14 @@ https://t.me/+1Xw9Kwr2P7k2YjY0
 pip install -r requirements.txt 
 ```
 
-1. copy sample_config.yml to config.yml under /settings folder or the data-dir you speified
-2. Edit config to match your enviroment
-3. run ./monitor.py (or python monitor.py)
+1. copy default_config.yml to config.yml under /settings folder or the data-dir you speified
+2. Edit config to match your environment
+3. run `python main.py`
 
-If you lazy and just want to copy and paste your devices, use the -S option and discovered devicesconfig will be printed to screen for copy/paste
+Run `python main.py -S` to discover devices on your network
 Example:
 ```
-root@berry1:~/ac_db# ./monitor.py -S
+root@berry1:~/ac_db# ./main.py -S
 *********** start copy below ************
 devices:
 - ip: 10.0.0.227
