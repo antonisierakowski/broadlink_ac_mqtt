@@ -6,6 +6,9 @@ config.yml
 desktop.ini
 
 
+.idea/
 .vscode/*
 env/*
 .devcontainer/*
+
+.env
