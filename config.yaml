@@ -1,0 +1,19 @@
+name: "Ac2mqtt HA ADDON TEST"
+version: "0.0.1"
+slug: "ac2mqtt_addon_test"
+description: "ac2mqtt built from github"
+arch:
+  - amd64
+init: false
+options:
+  mqtt_host: "mosquitto"
+  mqtt_port: 1883
+  mqtt_username: "mqtt"
+  mqtt_password: "example"
+  devices: '[{"ip":"x.x.x.x","mac":"x","name":"x","port":80}]'
+schema:
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: password
+  devices: str
