@@ -1,0 +1,9 @@
+name: "Ac2mqtt HA ADDON TEST"
+version: "0.0.1"
+slug: "ac2mqtt_addon_test"
+description: "ac2mqtt built from github"
+arch:
+  - amd64
+init: false
+options: {}
+schema: {}
